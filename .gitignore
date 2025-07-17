@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+dist/
+.vite/
+
+# Build output
+build/
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Env variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.log
+
+# OS
+*.swp
+
+# GitHub Pages output (if used locally)
+gh-pages/
