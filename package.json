@@ -2,7 +2,6 @@
   "name": "devfolio-working",
   "type": "module",
   "version": "1.0.0",
-  "homepage": "https://Siddharth0317.github.io/MyPortfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +9,7 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^12.23.6",
+    "framer-motion": "^12.23.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",

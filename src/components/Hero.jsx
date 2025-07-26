@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section id="hero" className="flex flex-col items-center justify-center py-20 px-6">
+    <section id="home" className="flex flex-col items-center justify-center py-20 px-6">
       
       {/* Profile Image */}
       <motion.div
@@ -65,7 +65,16 @@ export default function Hero() {
         >
           <FaLinkedin />
         </a>
+        
       </div>
+          <a
+            href="/resume.pdf"
+            download
+            className="mt-6 px-6 py-2 rounded-xl bg-sky-500/30 text-white backdrop-blur-md border border-sky-300 hover:bg-sky-500/50 hover:scale-105 hover:shadow-[0_0_15px_#0ea5e9] transition-all duration-300 ease-in-out"
+          >
+            📄 Download Resume
+          </a>
+
     </section>
   );
 }

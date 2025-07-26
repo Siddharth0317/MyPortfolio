@@ -44,6 +44,7 @@ export default function About() {
           🎧 I love lo-fi music while coding
         </div>
 
+
       </motion.div>
     </section>
   );

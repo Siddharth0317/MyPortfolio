@@ -2,15 +2,12 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 
-
-export default function Navbar() {
+export default function Navbar({ onShowCertificates }) {
   const [navOpen, setNavOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
-  const stored = localStorage.getItem("theme");
-  return stored ? stored === "dark" : true;
-});
-
-
+    const stored = localStorage.getItem("theme");
+    return stored ? stored === "dark" : true;
+  });
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -19,17 +16,16 @@ export default function Navbar() {
     localStorage.setItem("theme", !darkMode ? "dark" : "light");
   };
 
-  const navLinks = ["home", "about", "projects", "techstack", "resume", "contact"];
+  const navLinks = ["home", "about", "projects", "techstack", "contact"];
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-white dark:bg-gray-900 shadow">
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-white dark:text-white animate-pulse tracking-wide">
           <span className="bg-grey-600 text-white px-3 py-1 rounded shadow">
-            SR
+            Siddharth
           </span>
         </h1>
-    
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-6 text-sm text-gray-700 dark:text-gray-200 font-medium">
@@ -45,6 +41,14 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
+          <li>
+            <button
+              onClick={onShowCertificates}
+              className="hover:text-blue-600 transition-colors"
+            >
+              Certificates
+            </button>
+          </li>
         </ul>
 
         <div className="flex items-center gap-4">
@@ -79,6 +83,17 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
+          <li>
+            <button
+              onClick={() => {
+                onShowCertificates();
+                setNavOpen(false);
+              }}
+              className="block py-2 px-4 rounded hover:text-blue-600"
+            >
+              Certificates
+            </button>
+          </li>
         </ul>
       )}
     </nav>
