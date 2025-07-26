@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "type": "module",
   "version": "1.0.0",
-  "homepage": "https://Siddharth0317.github.io/MyPortfolio/",
+  "homepage": "https://Siddharth0317.github.io/MyPortfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
