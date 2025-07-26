@@ -24,14 +24,18 @@ export default function Hero() {
       </motion.div>
 
       {/* Animated Name */}
-      <motion.h1
-        className="mt-6 text-3xl md:text-4xl font-bold text-center dark:text-white"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-      >
-        Siddharth Rahane
-      </motion.h1>
+        <motion.h1
+          className="mt-6 text-3xl md:text-4xl font-bold text-center dark:text-white text-gray-900 dark:text-white drop-shadow-lg"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          style={{
+            textShadow: "0px 0px 15px rgba(59, 130, 246, 0.7)", // subtle blue glow
+          }}
+        >
+          Siddharth Rahane
+        </motion.h1>
+
 
       {/* Typing Animation */}
       <TypeAnimation

@@ -18,8 +18,8 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "My personal portfolio showcasing projects, skills, and achievements, built using React, Vite, and Tailwind CSS.",
-    github: "https://github.com/Siddharth0317/devfolio",
-    live: "https://yourname.vercel.app",
+    github: "https://github.com/Siddharth0317/MyPortfolio",
+    live: "https://siddharth0317.github.io/MyPortfolio/",
     image: portfolioImage,
     skills: ["React", "HTML", "Tailwind CSS", "Node"],
     status: "Completed",

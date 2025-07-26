@@ -9,7 +9,6 @@ import dsa from "../assets/certificates/dsa.png";
 import beyondtech from "../assets/certificates/beyondtech.png";
 import interviewcoach from "../assets/certificates/interviewcoach.png";
 import aiJobs from "../assets/certificates/AiJobs.png";
-import { b } from "framer-motion/client";
 
 const certificates = [
   {
@@ -111,6 +110,8 @@ export default function Certificates() {
           </motion.div>
         ))}
       </motion.div>
+      
+      
     </section>
   );
 }
