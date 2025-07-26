@@ -32,3 +32,6 @@ Thumbs.db
 
 # GitHub Pages output (if used locally)
 gh-pages/
+
+
+package-lock.json
