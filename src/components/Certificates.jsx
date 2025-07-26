@@ -3,18 +3,41 @@ import { motion } from "framer-motion";
 
 const certificates = [
   {
-    title: "AI Internship Certificate",
-    image: "/certificates/ai_certificate.jpg",
+    title: "DSACodeverse Competitive",
+    image: "/certificates/dsacodeverse.png",
   },
   {
-    title: "Full Stack Bootcamp",
-    image: "/certificates/fullstack_bootcamp.jpg",
+    title: "Generative AI Project",
+    image: "/certificates/genaiproject.png",
   },
   {
-    title: "Python Masterclass",
-    image: "/certificates/python_cert.jpg",
+    title: "Nxtcode Coding Challenge",
+    image: "/certificates/Nxtcode.png",
   },
-  // Add more as needed
+  {
+    title: "C Language Certification",
+    image: "/certificates/c.png",
+  },
+  {
+    title: "C++ Language Certification",
+    image: "/certificates/cpp.png",
+  },
+  {
+    title: "DSA Certification",
+    image: "/certificates/dsa.png",
+  },
+  {
+    title: "Beyond Tech : Skills for Future",
+    image: "/certificates/beyondtech.png",
+  },
+  {
+    title: "Interview Coach Podcast",
+    image: "/certificates/interviewcoach.png",
+  },
+  {
+    title: "Skills for AI jobs",
+    image: "/certificates/AiJobs.png",
+  },
 ];
 
 const containerVariants = {
