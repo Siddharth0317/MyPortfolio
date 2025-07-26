@@ -1,42 +1,52 @@
 // src/components/Certificates.jsx
 import { motion } from "framer-motion";
+import dsacodeverse from "../assets/certificates/dsacodeverse.png";
+import genaiproject from "../assets/certificates/genaiproject.png";
+import nxtcode from "../assets/certificates/Nxtcode.png";
+import c from "../assets/certificates/c.png";
+import cpp from "../assets/certificates/cpp.png";
+import dsa from "../assets/certificates/dsa.png";
+import beyondtech from "../assets/certificates/beyondtech.png";
+import interviewcoach from "../assets/certificates/interviewcoach.png";
+import aiJobs from "../assets/certificates/AiJobs.png";
+import { b } from "framer-motion/client";
 
 const certificates = [
   {
     title: "DSACodeverse Competitive",
-    image: "/certificates/dsacodeverse.png",
+    image: dsacodeverse,
   },
   {
     title: "Generative AI Project",
-    image: "/certificates/genaiproject.png",
+    image: genaiproject,
   },
   {
     title: "Nxtcode Coding Challenge",
-    image: "/certificates/Nxtcode.png",
+    image: nxtcode,
   },
   {
     title: "C Language Certification",
-    image: "/certificates/c.png",
+    image: c,
   },
   {
     title: "C++ Language Certification",
-    image: "/certificates/cpp.png",
+    image: cpp,
   },
   {
     title: "DSA Certification",
-    image: "/certificates/dsa.png",
+    image: dsa,
   },
   {
     title: "Beyond Tech : Skills for Future",
-    image: "/certificates/beyondtech.png",
+    image: beyondtech,
   },
   {
     title: "Interview Coach Podcast",
-    image: "/certificates/interviewcoach.png",
+    image: interviewcoach,
   },
   {
     title: "Skills for AI jobs",
-    image: "/certificates/AiJobs.png",
+    image:  aiJobs,
   },
 ];
 

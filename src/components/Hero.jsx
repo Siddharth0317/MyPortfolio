@@ -1,6 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import Profile from "../assets/profile.jpg";
+import Resume from "../assets/resume.pdf"; // Ensure you have a resume file in the assets folder
 
 export default function Hero() {
   return (
@@ -15,7 +17,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
       >
         <img
-          src="/profile.jpg"
+          src={Profile}
           alt="Siddharth Rahane"
           className="w-full h-full object-cover"
         />
@@ -68,7 +70,7 @@ export default function Hero() {
         
       </div>
           <a
-            href="/resume.pdf"
+            href = {Resume}
             download
             className="mt-6 px-6 py-2 rounded-xl bg-sky-500/30 text-white backdrop-blur-md border border-sky-300 hover:bg-sky-500/50 hover:scale-105 hover:shadow-[0_0_15px_#0ea5e9] transition-all duration-300 ease-in-out"
           >

@@ -1,6 +1,9 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
+import netguard from "../assets/images/netgaurd.png";
+import portfolioImage from "../assets/images/portfolio.png";
+import mcpImage from "../assets/images/mcp.png";
 
 const projects = [
   {
@@ -8,7 +11,7 @@ const projects = [
     description: "An AI-based anomaly detection system that leverages Isolation Forest to detect unusual patterns in network traffic.",
     github: "https://github.com/Siddharth0317/Netgaurd_AI",
     live: "https://netguard.streamlit.app",
-    image: "/netgaurd.png",
+    image: netguard,
     skills: ["Python", "FastAPI", "Streamlit", "Machine Learning"],
     status: "Completed",
   },
@@ -17,7 +20,7 @@ const projects = [
     description: "My personal portfolio showcasing projects, skills, and achievements, built using React, Vite, and Tailwind CSS.",
     github: "https://github.com/Siddharth0317/devfolio",
     live: "https://yourname.vercel.app",
-    image: "/images/portfolio.png",
+    image: portfolioImage,
     skills: ["React", "HTML", "Tailwind CSS", "Node"],
     status: "Completed",
   },
@@ -26,7 +29,7 @@ const projects = [
     description: "An AI-powered app that generates customized learning paths using MCP integrations, LangChain, and GenAI models.",
     github: "https://github.com/Siddharth0317/MCP-Learning-Path-Generator",
     live: "https://smartlearnpath.streamlit.app",
-    image: "/images/mcp.png",
+    image: mcpImage,
     skills: ["MCP", "LangChain", "GenAI", "Python", "REST API"],
     status: "In Progress",
   },
