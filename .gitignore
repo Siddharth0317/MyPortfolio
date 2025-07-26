@@ -8,6 +8,11 @@ yarn-error.log*
 dist/
 .vite/
 
+dist
+.vscode
+.DS_Store
+*.log
+
 # Build output
 build/
 
@@ -30,8 +35,7 @@ Thumbs.db
 # OS
 *.swp
 
-# GitHub Pages output (if used locally)
-gh-pages/
+
 
 
 package-lock.json
